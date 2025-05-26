@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:black;
+  }
+  
+  .profile-card {
+    background: whitesmoke;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  .profile-card img {
+    border-radius: 90%;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .bio {
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+/* found for the cursor effect */
+    cursor: pointer; 
+  }
+  .modal {
+    display: none; /*for Hidden by default */
+    position: fixed;
+    /* background-color: rgb(255, 255, 255); */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    border-style: solid;
+    background: whitesmoke;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  
+  .close-btn {
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+  }

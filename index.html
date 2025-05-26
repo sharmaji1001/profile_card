@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<!-- https://picsum.photos/200 will generate a new image like lorem ipsum--> 
+<body>
+  <div class="profile-card">
+    <img src="./ghibli-1.png" alt="Profile Picture" />
+    <h2>Venkatesh Sharma</h2>
+    <p class="bio">Software developer who is learning to improve :)</p>
+    <button id="contactBtn">Contact Me</button>
+  </div>
+
+  <div class="modal" id="contactModal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <h3>Contact Info,</h3>
+      <p>Email: venkatesh.sharma@tnqtech.com</p>
+      <i class="fa-solid fa-copy"></i>
+      <p>Phone: +91 9340878100</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
